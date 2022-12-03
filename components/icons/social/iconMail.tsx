@@ -1,3 +1,5 @@
+import { SVGProps } from 'react'
+
 export default function MaterialSymbolsMail(props: SVGProps<SVGSVGElement>) {
 	return (
 		<svg width='1em' height='1em' viewBox='0 0 24 24' {...props}>
