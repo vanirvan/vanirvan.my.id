@@ -3,6 +3,10 @@ const nextConfig = {
 	experimental: {
 		runtime: 'experimental-edge',
 	},
+	images: {
+		domains: ['avatars.githubusercontent.com'],
+		unoptimized: true,
+	},
 	reactStrictMode: false,
 	swcMinify: true,
 }
