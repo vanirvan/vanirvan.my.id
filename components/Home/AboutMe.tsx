@@ -27,7 +27,7 @@ const AboutMe = () => {
 					<div
 						className={`flex max-w-xs flex-col items-center text-center sm:items-start sm:text-start`}>
 						<span className={`text-2xl font-bold text-white`}>
-							Hi, i'm Irvan
+							Hi, i&rsquo;m Irvan
 						</span>
 						<div className={`flex flex-col italic text-gray-200`}>
 							<span className={``}>

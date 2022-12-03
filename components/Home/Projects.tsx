@@ -30,7 +30,7 @@ const Projects = () => {
 					{/* maximum project shown is 3, if more than that, show button to go to projects page */}
 					{projectList.length > 3 ? (
 						<div className={`mt-16 flex flex-col items-center gap-4`}>
-							<span className={`text-4xl font-bold`}>There's more!</span>
+							<span className={`text-4xl font-bold`}>There&rsquo;s more!</span>
 							<Link href={`/project`}>
 								<button
 									className={`rounded-2xl bg-secondary-500 px-4 py-2 text-white`}>
@@ -59,7 +59,7 @@ const Projects = () => {
 						</span>
 					</Link>
 					<span className={`font-fira-code text-xl`}>
-						Huh? Weird. There's nothing in here.
+						Huh? Weird. There&rsquo;s nothing in here.
 					</span>
 				</div>
 			)}
